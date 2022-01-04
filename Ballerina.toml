@@ -1,0 +1,8 @@
+[package]
+org = "book_store_service"
+name = "book_store_service"
+version = "0.0.1"
+
+[build-options]
+observabilityIncluded = true
+cloud = "k8s"
